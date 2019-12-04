@@ -51,3 +51,7 @@ class IslandProblem_dfs(object):
         self.dfs(grid, i, j-1)
         self.dfs(grid, i, j+1)
         return 1
+
+
+# Runtime: 120 ms, faster than 86.90% of Python online submissions for Number of Islands.
+# Memory Usage: 19 MB, less than 52.70% of Python online submissions for Number of Islands.
